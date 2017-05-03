@@ -15,7 +15,7 @@ $(function(){
 	//鼠标移入到顶级栏目
 	$a.mouseenter(function(){
 		$a.eq(index).html( arrZh[index] ).removeClass('hover');
-		alert( $a.eq(index) );
+		// alert( $a.eq(index) );
 		//获取 a的索引 用来去数组里面获取对应的内容
 		//index = $(this).index() / 2;  如果有多个i标签，那就获取不到了
 		index = $(this).index( ".nav-list a" )  //用这个
